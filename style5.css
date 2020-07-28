@@ -1209,6 +1209,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-top: -50px;
   transition: margin 0.2s;
 }
+#team .member:hover .member-info {
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 1;
+  transition: 0.4s;
+}
+
+#team .member:hover .member-info-content {
+  margin-top: 0;
+  transition: margin 0.4s;
+}
+
 
 #team .member h4 {
   font-weight: 700;
